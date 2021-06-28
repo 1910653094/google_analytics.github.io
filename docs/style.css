@@ -1,19 +1,19 @@
-body{
+body {
 	background-color: #eee;
-	font-family: arial;
+	font-family: arial, serif;
 	max-width: 600px;
 	margin: auto;
 }
 
-header > h1{
+header > h1 {
 	color: darkgreen;
 	font-size: 50px;
 	letter-spacing: 20px;
 	text-transform: uppercase;
-	margin: 40px 0px 30px;
+	margin: 40px 0 30px;
 }
 
-li{
+li {
   background-color: green;
   border: none;
   color: white;
@@ -23,31 +23,31 @@ li{
   margin: 15px 47px 3px -40px;
 }
 
-a{
+a {
 	color: white;
 	text-decoration: none;
 }
 
-section{
+section {
 	background-color: lightgreen;
 	padding: 15px;
-	margin: 0px 0px 1px 0px;
+	margin: 0 0 1px 0;
 	font-size: 13px;
 }
 
-section > h1{
+section > h1 {
 	letter-spacing: 5px;
 	font-size: 20px;
 }
 
-p::first-letter{
+p::first-letter {
 	font-size: 28px;
 	color: green;
 }
 
-footer{
+footer {
 	font-size: 10px;
-	margin: 10px 0px;
+	margin: 10px 0;
 	border-top: 2px solid lightgreen;
-	padding: 10px 0px;
+	padding: 10px 0;
 }
